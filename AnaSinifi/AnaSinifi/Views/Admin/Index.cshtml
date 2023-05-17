@@ -1,0 +1,117 @@
+﻿@using EntityLayer.Concrete
+@model List<Duyurular>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<section class="section dashboard">
+    <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+            <div class="row">
+
+                <div class="col-xxl-4 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Ders Sayımız <span>| </span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="ps-3">
+                                    <h6>@ViewBag.ders</h6>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Slider Sayımız <span>| </span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="ps-3">
+                                    <h6>@ViewBag.slider</h6>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Galeri Görsel Sayımız <span>| </span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="ps-3">
+                                    <h6>@ViewBag.galeri</h6>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Duyuru Sayımız <span>| </span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="ps-3">
+                                    <h6>@ViewBag.duyuru</h6>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Gönderilen Kayıt<span> | </span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div class="ps-3">
+                                    <h6>@ViewBag.kayit</h6>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Left side columns -->
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body pb-0">
+                    <h5 class="card-title">Son Yapılan Duyurularımız <span>|</span></h5>
+                    @foreach (var item in Model)
+                    {
+                               <div class="news">
+                            <div class="post-item clearfix">
+                                <img src="https://cdn.create.vista.com/api/media/medium/471072606/stock-vector-advertising-yellow-glowing-neon-icon?token=" alt="">
+                                <h4><a href="#">@item.DuyuruBaslik</a></h4>
+                                <p>@item.DuyuruTarih.ToShortDateString()</p>
+                            </div>
+                        </div>
+                        <!-- End sidebar recent posts-->
+                    }
+                </div>
+            </div><!-- End News & Updates -->
+        </div><!-- End Right side columns -->
+    </div>
+</section>

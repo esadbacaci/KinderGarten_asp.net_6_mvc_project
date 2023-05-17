@@ -1,0 +1,29 @@
+﻿@model EntityLayer.Concrete.Slider
+@{
+    ViewData["Title"] = "SliderEkle";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Slider Ekle</h5>
+
+        <!-- Vertical Form -->
+        <form asp-controller="Admin" asp-action="SliderEkle" method="post" enctype="multipart/form-data" class="row g-3">
+            <div class="col-12">
+                <label for="SliderYazi" class="form-label">Slider Yazı</label>
+                <input name="SliderYazi" type="text" class="form-control" id="SliderYazi" required>
+            </div>
+            <div class="col-12">
+                <label for="SliderImage" class="form-label">Ders Görsel</label>
+                <input name="SliderImage" type="file" class="form-control" id="SliderImage" accept="image/*" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </form><!-- Vertical Form -->
+
+    </div>
+</div>
+
+
+

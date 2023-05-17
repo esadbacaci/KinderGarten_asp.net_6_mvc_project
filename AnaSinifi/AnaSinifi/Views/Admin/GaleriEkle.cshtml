@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "GaleriEkle";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+  <form asp-controller="Admin" asp-action="GaleriEkle" method="post" enctype="multipart/form-data" class="row g-3">
+          
+            <div class="col-12">
+                <label for="GaleryImage" class="form-label">Galeri Görsel</label>
+        <input name="GaleryImage" type="file" class="form-control" id="GaleryImage" accept="image/*" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </form><!-- Vertical Form -->
+

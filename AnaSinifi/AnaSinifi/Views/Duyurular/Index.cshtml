@@ -1,0 +1,55 @@
+﻿@using EntityLayer.Concrete
+@model List<Duyurular>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="ht__bradcaump__area">
+	<div class="ht__bradcaump__container">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="bradcaump__inner text-center">
+						<h2 class="bradcaump-title">Duyurular</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Bradcaump area -->
+<!-- Start Our Event Area -->
+<div class="dcare__event__area bg--white section-padding--lg">
+    <div class="container">
+        <div class="row">
+            <!-- Start Single Event -->
+            @foreach (var item in Model.OrderByDescending(x=>x.DuyuruID))
+            {
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="dcare__event">
+                        <div class="event__content">
+                            <div class="event__pub">
+                                <div class="event__date">
+                                    <span class="date">@item.DuyuruTarih.Day</span><span>th</span>
+                                </div>
+                                <ul class="event__time">
+                                    <li>@item.DuyuruTarih.ToString("MMMM"), <i class="fa fa-clock-o"></i>@item.DuyuruTarih.ToString("HH:mm")</li>
+                                    <li><i class="fa fa-home"></i>@item.DuyuruMekan</li>
+                                </ul>
+                            </div>
+                            <div class="event__inner">
+                                <p>@item.DuyuruBaslik</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            <!-- End Single Event -->
+        </div>
+    </div>
+</div>
+
+
+
+<!-- End Our Event Area -->

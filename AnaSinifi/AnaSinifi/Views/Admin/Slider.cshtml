@@ -1,0 +1,34 @@
+﻿@using EntityLayer.Concrete
+@model List<Slider>
+@{
+    ViewData["Title"] = "Slider";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="table-responsive">
+    <table class="table table-hover">
+
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Slider Açıklama</th>
+                <th>Slider Görsel</th>
+
+                <th></th>
+
+            </tr>
+        </thead>
+        @foreach (var item in Model.OrderByDescending(x => x.SliderID))
+        {
+            <tr>
+                <th>@item.SliderID</th>
+                <th>@item.SliderYazi</th>
+                <td><img style="width:10%" src="@item.SliderImage " alt="Blog Görseli"></td>
+
+
+                <td><a href="/Admin/SliderSil/@item.SliderID" id="DeleteBtn" onclick="return confirm('Bu Projeyi Silmek İstediğinize Emin Misiniz ?');" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </table>
+</div>
+

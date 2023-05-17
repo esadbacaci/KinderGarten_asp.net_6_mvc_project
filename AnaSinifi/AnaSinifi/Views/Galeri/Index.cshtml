@@ -1,0 +1,68 @@
+﻿@using EntityLayer.Concrete
+@model List<Galeri>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="ht__bradcaump__area">
+	<div class="ht__bradcaump__container">
+		<img src="~/anasinifi/images/bg/bggalerisayfa.png" alt="bradcaump images">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="bradcaump__inner text-center">
+						<h2 class="bradcaump-title">Foto Galeri</h2>
+						<nav class="bradcaump-inner">
+							<a class="breadcrumb-item" href="/Anasayfa">Anasayfa</a>
+							<span class="brd-separetor"><img src="~/anasinifi/images/icons/brad.png" alt="separator images"></span>
+							<span class="breadcrumb-item active">Galeri</span>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Bradcaump area -->
+<!-- Start Our Gallery Area -->
+<section class="junior__gallery__area bg--white section-padding--lg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-sm-12 col-md-12">
+				<div class="section__title text-center">
+					<h2 class="title__line">Our Gallery</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunte magna aliquaet, consectetempora incidunt</p>
+				</div>
+			</div>
+		</div>
+		<div class="row galler__wrap mt--40">
+			<!-- Start Single Gallery -->
+			@foreach (var item in Model)
+			{
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+					<div class="gallery wow fadeInUp">
+						<div class="gallery__thumb">
+							<a href="#">
+								<img src="@item.GaleryImage" alt="gallery images">
+							</a>
+						</div>
+						<div class="gallery__hover__inner">
+							<div class="gallery__hover__action">
+								<ul class="gallery__zoom">
+									<li><a href="@item.GaleryImage" data-lightbox="grportimg" data-title="Galeri"><i class="fa fa-search"></i></a></li>
+								</ul>
+								<h4 class="gallery__title"><a href="#">Galeri</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+		
+			<!-- End Single Gallery -->
+		
+		</div>
+	</div>
+</section>
+<!-- End Our Gallery Area -->
+

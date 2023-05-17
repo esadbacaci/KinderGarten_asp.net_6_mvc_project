@@ -1,0 +1,46 @@
+﻿@model EntityLayer.Concrete.Ders
+@{
+    ViewData["Title"] = "EgitmenEkle";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Eğitmen Ekle</h5>
+
+        <!-- Vertical Form -->
+        <form asp-controller="Admin" asp-action="EgitmenEkle" method="post" enctype="multipart/form-data" class="row g-3">
+            <div class="col-12">
+                <label for="EgitmenAdi" class="form-label">Eğitmen Adı </label>
+                <input name="EgitmenAdi" type="text" class="form-control" id="EgitmenAdi" required >
+            </div>
+            <div class="col-12">
+                <label for="EgitmenAciklama" class="form-label">Eğitmen Açıklama</label>
+                <input name="EgitmenAciklama" type="text" class="form-control" id="EgitmenAciklama" required>
+            </div>
+         <div class="col-12">
+                <label for="EgitmenGorsel" class="form-label">Eğitmen Görsel</label>
+                <input name="EgitmenGorsel" type="file" class="form-control" id="EgitmenGorsel" accept="image/*" required>
+            </div>
+               <div class="col-12">
+                <label for="EgitmenFacebook" class="form-label">Facebook</label>
+                <input name="EgitmenFacebook" type="text" class="form-control" id="EgitmenFacebook" required placeholder="Eğer yok ise # koyunuz">
+            </div>  
+            <div class="col-12">
+                <label for="EgitmenTwitter" class="form-label">Twitter</label>
+                <input name="EgitmenTwitter" type="text" class="form-control" id="EgitmenTwitter" required placeholder="Eğer yok ise # koyunuz">
+            </div>
+            <div class="col-12">
+                <label for="EgitmenInstagram" class="form-label">Instagram</label>
+                <input name="EgitmenInstagram" type="text" class="form-control" id="EgitmenInstagram" required placeholder="Eğer yok ise # koyunuz">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </form><!-- Vertical Form -->
+
+    </div>
+</div>
+
+
+

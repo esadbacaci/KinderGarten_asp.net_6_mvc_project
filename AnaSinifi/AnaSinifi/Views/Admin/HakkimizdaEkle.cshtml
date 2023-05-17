@@ -1,0 +1,32 @@
+﻿@model EntityLayer.Concrete.Ders
+
+@{
+    ViewData["Title"] = "HakkimizdaEkle";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<script src="~/ckeditor/ckeditor.js"></script>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Hakkımızda Ekle</h5>
+
+        <!-- Vertical Form -->
+        <form asp-controller="Admin" asp-action="HakkimizdaEkle" method="post" enctype="multipart/form-data" class="row g-3">
+            <div class="col-12">
+                <label for="HakkimizdaBaslik" class="form-label">Hakkımızda Başlık</label>
+                <input name="HakkimizdaBaslik" type="text" class="form-control" id="HakkimizdaBaslik" required>
+            </div>
+            <div class="col-12">
+                <label for="HakkimizdaYazi" class="form-label">Hakkımızda İçerik</label>
+                <textarea name="HakkimizdaYazi" type="text" class="form-control" id="HakkimizdaYazi"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </form><!-- Vertical Form -->
+
+    </div>
+</div>
+
+<script>
+    CKEDITOR.replace('HakkimizdaYazi');
+</script>

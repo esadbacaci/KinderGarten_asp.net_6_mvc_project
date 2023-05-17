@@ -1,0 +1,29 @@
+﻿@using EntityLayer.Concrete
+@model List<Hakkimizda>
+@{
+    ViewData["Title"] = "Hakkimizda";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="table-responsive">
+    <table class="table table-hover">
+
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Hakkımızda Başlık</th>
+                <th>Hakkımızda Açıklama</th>
+                <th></th>
+            </tr>
+        </thead>
+        @foreach (var item in Model.OrderByDescending(x => x.HakkimizdaID))
+        {
+            <tr>
+                <th>@item.HakkimizdaID</th>
+                <th>@item.HakkimizdaBaslik</th>
+                <th>@Html.Raw(@item.HakkimizdaYazi)</th>
+                <td><a href="/Admin/HakkimizdaSil/@item.HakkimizdaID" id="DeleteBtn" onclick="return confirm('Bu Kısımı Silmek İstediğinize Emin Misiniz ?');" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </table>
+</div>

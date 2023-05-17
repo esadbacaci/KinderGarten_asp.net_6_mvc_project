@@ -1,0 +1,25 @@
+﻿@model EntityLayer.Concrete.YtLink
+@{
+    ViewData["Title"] = "YoutubeLinkEkle";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Youtube Link Ekle</h5>
+
+        <!-- Vertical Form -->
+        <form asp-controller="Admin" asp-action="YoutubeLinkEkle" method="post" enctype="multipart/form-data" class="row g-3">
+            <div class="col-12">
+                <label for="YTUrl" class="form-label"> Youtube Link</label>
+                <input name="YTUrl" type="text" class="form-control" id="YTUrl" placeholder="https://www.youtube.com" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </form><!-- Vertical Form -->
+
+    </div>
+</div>
+
+

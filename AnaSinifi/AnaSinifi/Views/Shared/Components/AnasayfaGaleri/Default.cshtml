@@ -1,0 +1,35 @@
+﻿@using EntityLayer.Concrete
+@model List<Galeri>
+<div class="container">
+	<div class="row">
+		<div class="offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+			<div class="testimonial__container">
+				<div class="tes__activation--1 owl-carousel owl-theme">
+					@foreach (var item in Model)
+						{
+						<div style="background-image: url(@item.GaleryImage);
+  background-size: cover;
+  background-position: center center;
+height:50vh;
+border-radius:20px;">
+						<!-- Start Single Testimonial -->
+						
+							
+						<div class="testimonial text-center">
+							<div class="testimonial__inner">
+								<div class="client__details">
+									<div class="client__info">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- End Single Testimonial -->
+					</div>
+					}
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

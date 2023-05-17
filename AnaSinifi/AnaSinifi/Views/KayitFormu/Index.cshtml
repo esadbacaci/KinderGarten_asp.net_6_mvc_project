@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="ht__bradcaump__area">
+    <div class="ht__bradcaump__container">
+        <img style="width:100%;height:40vh;" src="https://htmldemo.net/tm/junior/junior/images/bg-png/6.png" alt="bradcaump images">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bradcaump__inner text-center">
+                        <h2 class="bradcaump-title">Kayıt Sayfası</h2>
+                        <nav class="bradcaump-inner">
+                            <a class="breadcrumb-item" href="/Admin">Anasayfa</a>
+                            <span class="brd-separetor"><img src="~/anasinifi/images/icons/brad.png" alt="separator images"></span>
+                            <span class="breadcrumb-item active">Kayıt Ol</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Bradcaump area -->
+<section class="contact__box section-padding--lg" style="background-color:#0095E8">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <div class="section__title text-center">
+                    <h2 style="color:white" class="title__line">Hemen Kayıt Olun</h2>
+                    <p style="color:white">Web sitemiz üzerinden kolayca kayıt işlemi gerçekleştirebilirsiniz</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt--80">
+            <div class="col-lg-12">
+                <div class="contact-form-wrap">
+                    <form asp-controller="KayitFormu" asp-action="KayitformEkle" id="contact-form method="method="post">
+                        <div class="single-contact-form name">
+                            <input type="text" name="VeliAdSoyad" placeholder="Veli Ad Soyad"required>
+                            <input type="text" name="OgrenciAdSoyad" placeholder="Öğrenci Ad Soyad" required>
+                        </div>
+                        <div class="single-contact-form subject">
+                            <input type="email" name="Mail" placeholder="Mail" required>
+                        </div>
+                        <div class="single-contact-form subject">
+                            <input type="tel" name="TelefonNo" placeholder="Telefon"required>
+                        </div>
+                        <div class="single-contact-form message">
+                            <textarea name="Mesaj" placeholder="Eklemek istediklerinizi buraya yazabilirsiniz..." required></textarea>
+                        </div>
+                        <div class="contact-btn">
+                            <button type="submit" class="dcare__btn">Gönder</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-output">
+                    <p class="form-messege"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,132 @@
+﻿@using EntityLayer.Concrete
+@model List<Hakkimizda>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="ht__bradcaump__area">
+	<div class="ht__bradcaump__container">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="bradcaump__inner text-center">
+						<h2 class="bradcaump-title">Hakkımızda</h2>
+						<nav class="bradcaump-inner">
+							<a class="breadcrumb-item" href="/Admin">Anasayfa</a>
+							<span class="brd-separetor"><img src="~/anasinifi/images/icons/brad.png" alt="separator images"></span>
+							<span class="breadcrumb-item active">Hakkımızda</span>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Bradcaump area -->
+<!-- Start Choose Us Area -->
+<section class="dcare__choose__us__area section-padding--lg bg--white">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-sm-12 col-md-12">
+				<div class="section__title text-center">
+					<h2 class="title__line">Hakkımızda</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunte magna aliquaet, consectetempora incidunt</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt--40">
+			<!-- Start Single Choose Option -->
+			<div class="col-lg-12 col-md-6 col-sm-12">
+				<div class="dacre__choose__option">
+					<!-- Start Single Choose -->
+					@foreach (var item in Model)
+					{
+					<div class="choose">
+						<div class="choose__inner">
+							<h4>@item.HakkimizdaBaslik</h4>
+							<br />
+							<br />
+								<p>@Html.Raw(item.HakkimizdaYazi)</p>
+
+						</div>
+					</div>
+					}
+					<!-- End Single Choose -->
+				</div>
+			</div>
+			<!-- End Single Choose Option -->
+			
+		</div>
+	</div>
+</section>
+<!-- End Choose Us Area -->
+
+
+<!-- Start Team Area -->
+<!-- End Team Area -->
+<!-- Start Counter Up Area -->
+<section class="dcare__counterup__area section-padding--lg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12 col-sm-12">
+				<div class="counterup__wrapper d-flex flex-wrap flex-lg-nowrap flex-md-nowrap justify-content-between">
+					<!-- Start Single Fact -->
+					<div class="funfact">
+						<div class="fact__icon">
+							<img src="~/anasinifi/images/funfact/1.png" alt="flat icon">
+						</div>
+						<div class="fact__count ">
+							<span class="count">95</span>
+						</div>
+						<div class="fact__title">
+							<h2>Student</h2>
+						</div>
+					</div>
+					<!-- End Single Fact -->
+					<!-- Start Single Fact -->
+					<div class="funfact">
+						<div class="fact__icon">
+							<img src="~/anasinifi/images/funfact/2.png" alt="flat icon">
+						</div>
+						<div class="fact__count ">
+							<span class="count color--2">95</span>
+						</div>
+						<div class="fact__title">
+							<h2>classroom</h2>
+						</div>
+					</div>
+					<!-- End Single Fact -->
+					<!-- Start Single Fact -->
+					<div class="funfact">
+						<div class="fact__icon">
+							<img src="~/anasinifi/images/funfact/3.png" alt="flat icon">
+						</div>
+						<div class="fact__count ">
+							<span class="count color--3">40</span>
+						</div>
+						<div class="fact__title">
+							<h2>Teacher</h2>
+						</div>
+					</div>
+					<!-- End Single Fact -->
+					<!-- Start Single Fact -->
+					<div class="funfact">
+						<div class="fact__icon">
+							<img src="~/anasinifi/images/funfact/4.png" alt="flat icon">
+						</div>
+						<div class="fact__count">
+							<span class="count color--4">10</span>
+						</div>
+						<div class="fact__title">
+							<h2>School Bus</h2>
+						</div>
+					</div>
+					<!-- End Single Fact -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Counter Up Area -->
+

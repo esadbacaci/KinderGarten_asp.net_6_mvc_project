@@ -1,0 +1,17 @@
+D:\Web Projelerim\AnaSinifi\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+D:\Web Projelerim\AnaSinifi\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+D:\Web Projelerim\AnaSinifi\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+D:\Web Projelerim\AnaSinifi\BusinessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\Web Projelerim\AnaSinifi\BusinessLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\Web Projelerim\AnaSinifi\BusinessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\Web Projelerim\AnaSinifi\BusinessLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\Web Projelerim\AnaSinifi\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CopyComplete

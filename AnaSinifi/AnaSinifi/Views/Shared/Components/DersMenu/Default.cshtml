@@ -1,0 +1,13 @@
+﻿@using EntityLayer.Concrete
+@model List<Ders>
+@{
+    Layout = null;
+}
+
+
+	<ul class="dropdown__menu">
+	@foreach (var item in Model)
+	{
+		<li><a href="/EgiticiDersler/Detay/@item.DersID">@item.DersAdi</a></li>
+}
+</ul>

@@ -1,0 +1,36 @@
+﻿@using EntityLayer.Concrete
+@model List<KayitForm>
+@{
+    ViewData["Title"] = "Kayitform";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="table-responsive">
+    <table class="table table-hover">
+
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Veli Ad Soyad</th>
+                <th>Öğrenci Ad Soyad</th>
+                <th>Mail</th>
+                <th>Telefon No</th>
+
+                <th></th>
+
+            </tr>
+        </thead>
+        @foreach (var item in Model.OrderByDescending(x => x.KayitID))
+        {
+            <tr>
+                <th>@item.KayitID</th>
+                <th>@item.VeliAdSoyad</th>
+                <th>@item.OgrenciAdSoyad</th>
+                <th>@item.Mail</th>
+                <th>@item.TelefonNo</th>
+
+                <td><a href="/Admin/KayitformSil/@item.KayitID" id="DeleteBtn" onclick="return confirm('Bu Projeyi Silmek İstediğinize Emin Misiniz ?');" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </table>
+</div>
+

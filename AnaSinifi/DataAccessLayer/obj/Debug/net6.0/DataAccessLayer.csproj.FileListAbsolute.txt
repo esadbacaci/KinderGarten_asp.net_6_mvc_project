@@ -1,0 +1,17 @@
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+D:\Web Projelerim\AnaSinifi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache

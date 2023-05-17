@@ -1,0 +1,161 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AnaSinifi
+build_property.RootNamespace = AnaSinifi
+build_property.ProjectDir = D:\Web Projelerim\AnaSinifi\AnaSinifi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Web Projelerim\AnaSinifi\AnaSinifi
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Duyuru.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRHV5dXJ1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/DuyuruEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRHV5dXJ1RWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/EgiticiDersler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWdpdGljaURlcnNsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/EgiticiDerslerEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWdpdGljaURlcnNsZXJFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Egitmen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWdpdG1lbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/EgitmenEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWdpdG1lbkVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Galeri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2FsZXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/GaleriEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2FsZXJpRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSGFra2ltaXpkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/HakkimizdaEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSGFra2ltaXpkYUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Kayitform.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2F5aXRmb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/SiteHaritasi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2l0ZUhhcml0YXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/Slider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/SliderEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xpZGVyRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/YoutubeLink.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWW91dHViZUxpbmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Admin/YoutubeLinkEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWW91dHViZUxpbmtFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Anasayfa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Duyurular/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1bGFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/EgiticiDersler/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdpdGljaURlcnNsZXJcRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Egitmenlerimiz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdpdG1lbmxlcmltaXpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Galeri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Hakkimizda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltaXpkYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Iletisim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/KayitFormu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F5aXRGb3JtdVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Shared/Components/AnasayfaGaleri/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQW5hc2F5ZmFHYWxlcmlcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Shared/Components/DersMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGVyc01lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web Projelerim/AnaSinifi/AnaSinifi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kttwrp5gq5

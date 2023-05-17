@@ -1,0 +1,33 @@
+﻿@using EntityLayer.Concrete
+@model List<Galeri>
+@{
+    ViewData["Title"] = "Galeri";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="table-responsive">
+    <table class="table table-hover">
+
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Galeri Görsel</th>
+
+                <th></th>
+
+            </tr>
+        </thead>
+        @foreach (var item in Model.OrderByDescending(x => x.GaleriID))
+        {
+            <tr>
+                <th>@item.GaleriID</th>
+                <td><img style="width:10%" src="@item.GaleryImage " alt="Blog Görseli"></td>
+
+
+                <td><a href="/Admin/GaleriSil/@item.GaleriID" id="DeleteBtn" onclick="return confirm('Bu Projeyi Silmek İstediğinize Emin Misiniz ?');" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </table>
+</div>
+
+

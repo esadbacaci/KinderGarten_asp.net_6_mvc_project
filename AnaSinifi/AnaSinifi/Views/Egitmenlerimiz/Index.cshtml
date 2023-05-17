@@ -1,0 +1,63 @@
+﻿@using EntityLayer.Concrete
+@model List<Egitmenler>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="dcare__team__area pb--150 bg--white">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-sm-12 col-md-12">
+				<div style="margin-top:10%" class="section__title text-center">
+					<h2 class="title__line">Öğretmenlerimiz</h2>
+					<p>Çocuklarınız deneyimli ve güler yüzlü ekibimize emanet</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt--40">
+			<!-- Start Single Team -->
+			@foreach (var item in Model)
+			{
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+				<div class="team">
+					<div class="team__thumb">
+						<a href="#">
+							<img src="@item.EgitmenGorsel" alt="team images">
+						</a>
+						<div class="team__hover__action">
+							<div class="team__hover__inner">
+								<p style="text-align:center">@item.EgitmenAciklama</p>
+								<ul class="dacre__social__link--2 d-flex justify-content-center">
+									<li class="facebook"><a href="@item.EgitmenFacebook"><i class="fa fa-facebook"></i></a></li>
+									<li class="twitter"><a href="@item.EgitmenTwitter"><i class="fa fa-twitter"></i></a></li>
+									<li class="youtube"><a href="@item.EgitmenInstagram"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="team__details">
+						<div class="team__info">
+							<h6><a href="#">@item.EgitmenAdi</a></h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			}
+		</div>
+	</div>
+</section>
+<style>
+
+	.team__thumb {
+		width: 100%;
+		height: 50vh; /* Adjust the height as per your requirement */
+		overflow: hidden;
+	}
+
+		.team__thumb img {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+		}
+</style>
